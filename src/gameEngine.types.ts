@@ -18,9 +18,9 @@ export interface Bird {
 export type GameState = "start" | "playing" | "gameover";
 
 // Game physics constants modified for easier gameplay
-export const gravity = 0.5;
-export const flap = -10; // Increased upward force for easier control
-export const pipeSpeed = 1.5; // Slower pipes for easier reaction time
+export const gravity = 0.3; // Reduced gravity for gentler drops
+export const flap = -10; // Maintained upward force for control
+export const pipeSpeed = 1.0; // Reduced pipe speed for easier reaction
 export const pipeInterval = 1500;
 export const pipeWidth = 60;
-export const gapHeight = 200; // Larger gap for easier navigation
+export const gapHeight = 300; // Increased gap height for easier navigation
